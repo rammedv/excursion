@@ -23,3 +23,26 @@ header a {
     justify-content: center;
 }
 
+
+.travel-guide h1{
+    font-family: verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.travel-guide p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+
+.travel-guide .image-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
