@@ -13,9 +13,10 @@ header h1 {
     color: white;
 }
 
-header a {
+a {
     color: aquamarine;
     font-size: 16px;
+    text-align: center;
 }
 
 .video-container {
@@ -24,7 +25,8 @@ header a {
 }
 
 
-.travel-guide h1{
+.travel-guide h1, 
+.coming-soon h1{
     font-family: verdana;
     font-weight: 300;
     font-size: 42px;
@@ -39,10 +41,30 @@ header a {
     text-align: center;
 }
 
+
 .travel-guide .image-container{
     display: flex;
     justify-content: center;
+    flex-shrink: 3;
 }
 
+.coming-soon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer{
+    text-align: right;
+    color: gray;
+    font-family: verdana;
+    font-size: 21px;
+}
 
 
